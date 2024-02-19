@@ -70,7 +70,7 @@ int main()
     std::cout<<std::endl;
 
     // 2. quick sort the list of items
-    int last = age_list.size() - 1;
+    int last = age_list.size() - 1;  // index of last item
     quick_sort(age_list, 0, last);
 
     // 3. Print list after sorting
